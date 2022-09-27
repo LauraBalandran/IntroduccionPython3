@@ -10,4 +10,6 @@ def dibujo(width , height):
    for i in range(height - 2): 
       print("*" + " " * (width - 2) + "*") 
    # Dibuja la parte inferior 
-   print("*" * width)
+      print("*" * width)
+
+dibujo(20,20)
